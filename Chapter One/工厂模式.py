@@ -43,7 +43,7 @@ class OperationDiv(Operation):
     def get_result(self):
         if self.get_numberB():
             return self.get_numberA()/self.get_numberB()
-        return '除数不能为0'
+        return 'divided by zero'
 
 # 运算工厂
 class OperationFactory(object):
